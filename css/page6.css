@@ -1,0 +1,157 @@
+body{
+	position: flex;
+	
+	background-color: #000000;
+	margin: 0 auto;
+	font-family: 'Montserrat', sans-serif;
+	color: #fff; 
+	
+}
+.header{
+	margin-bottom: 79px;
+	padding-top: 10px;
+	/*padding-bottom: 12px;*/
+	height: 60px;
+	background-color: #000000;
+	display: flex;
+	justify-content: space-between;
+
+}
+.logo1{	
+	width: 118px;
+	height: 40px;
+	margin-left: 82px;
+	
+}
+.navigation{
+	text-align: left;
+	margin: 0 auto;
+	margin-right:  515px;
+	display: flex;
+	list-style: none;	
+}
+.main-navigation{
+	display: flex;
+	padding-bottom: 22px;
+	padding-top: 15px;
+}
+.item-link{
+	display: flex;		
+	padding-right:25px;	
+	color: #FFF;
+	text-decoration: none;
+	font-size: 13px;
+	line-height: 16px;
+}
+}
+#registerplusvhod{
+	width: 286px;
+	height: 40px;
+	padding-right: 30px;
+	
+	font-size: 15px;
+	line-height: 18px;
+	text-decoration: none;
+	
+}
+#registerplusvhod a{
+	text-decoration: none;
+}
+.register{
+	text-align: center;
+	align-items: center;
+	list-style: none;	
+	background: #F2994A;
+	margin: 0 auto;	
+	border-radius: 6px;
+	text-align: center;
+	margin-left: 16px;
+	padding: 10px 15px 10px 15px;
+	color: #FFF
+	
+}
+.section{
+	/*padding-bottom: 80px;*/
+	display: flex;
+	/*padding-top: 79px;*/
+	padding-left: 96px;
+
+}
+.obodok{
+	width: 95%;
+height: 523px;
+	background: #000000;
+border: 1px solid rgba(255, 255, 255, 0.5);
+box-sizing: border-box;
+}
+.registraciya{
+	margin-top: 21.26px;
+	margin-left: 47.04px;
+	margin-right: 589.52px;
+	margin-bottom: 30.47px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 36px;
+	letter-spacing: -0.015em;
+	color: #FFFFFF;
+}
+.pole{
+	margin-left: 47.04px;
+	margin-bottom: 20px;
+	width: 494.44px;
+	height: 42px;
+	background: #EAEAEA;
+	border: 1px solid rgba(4, 4, 4, 0.8);
+	box-sizing: border-box;
+}
+.text{
+	margin-left: 12.01px;
+	vertical-align: center;
+	text-align: center;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 24px;
+	letter-spacing: -0.015em;
+	color: #000000;
+}
+.pole1{
+	display: inline-flex;
+	margin-left: 594.11px;
+	margin-bottom: 20px;
+	width: 494.44px;
+	background: #EAEAEA;
+	border: 1px solid rgba(4, 4, 4, 0.8);
+	box-sizing: border-box;
+}
+.reg{
+	margin-left: 48px;
+	width: 194px;
+	height: 40px;
+	background: #EAEAEA;
+	border-radius: 6px;
+}
+#reg{
+	text-align: center;
+	width: 194px;
+	height: 18px;
+
+	margin: 0 auto;
+
+	padding-bottom: 11px;
+padding-top: 11px;
+padding-left: 3.88px;
+padding-right: 2.58px;
+	font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+display: inline-block;
+align-items: center;
+letter-spacing: -0.015em;
+color: #000000;
+}
