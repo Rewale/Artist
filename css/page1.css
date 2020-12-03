@@ -1,81 +1,4 @@
-body{
-	background-color: #000000;
-	margin: 0px;
-	padding: 0px;
-	font-family: 'Montserrat', sans-serif;
-	color: #fff; 
-}
-.header{
-	padding-top: 10px;
-	padding-bottom: 12px;
-	height: 60px;
-	background-color: #000000;
-	display: flex;
-	justify-content: space-between;
-	width:100%;
-}
-.logo1{	
-	width: 118px;
-	height: 40px;
-	margin-left: 82px;
-	
-}
-.navigation{
-	margin: 0;
-	display: flex;
-	list-style: none;	
-	
-}
-.main-navigation{
-	display: flex;
-	padding-bottom: 22px;
-	padding-top: 15px;
-}
-.item-link{
-	display: flex;		
-	padding-right:25px;	
-	color: #FFF;
-	text-decoration: none;
-	font-size: 13px;
-	line-height: 16px;
 
-}
-#registerplusvhod{
-
-	width: 286px;
-	height: 40px;
-	padding-right: 30px;
-	
-	font-size: 15px;
-	line-height: 18px;
-	text-decoration: none;
-	
-}
-#registerplusvhod a{
-	text-decoration: none;
-}
-.vhod{
-	list-style: none;	
-	color: black;	
-	background-color:  #FFFFFF;
-	border-radius: 6px;	
-	text-align: center;
-	align-items: center;
-	padding: 11px 46px 11px 46px;
-}
-.register{
-	text-align: center;
-	align-items: center;
-	list-style: none;	
-	background: #F2994A;
-	margin: 0 auto;	
-	border-radius: 6px;
-	text-align: center;
-	margin-left: 16px;
-	padding: 10px 15px 10px 15px;
-	color: #FFF
-	
-}
 .list-hide{
 	display: flex;
 	flex-direction: column;
@@ -84,15 +7,21 @@ body{
 	list-style: none;
 	margin: 0;	
 	right:0;
-	
-	
+	width: 172px;
+	padding: 10px;
 }
 .item-hide-a{
 	color:white;
 	text-decoration: none;
+}
+.item-hide
+{
+	widows: 172px;
 	text-align: center;
-	padding-bottom: 10px;
-	padding-right: 15px;
+	padding-bottom: 50px;
+}
+#last{
+	padding-bottom: 15px;
 }
 #menu-butt{	
 	position: relative;
@@ -288,49 +217,6 @@ h3{
 	text-decoration: none;
 	color: #FFFFFF;
 }
-footer{
-	margin-top: 100px;
-	padding-bottom: 100px;
-}
-.Line-Footer{
-	width: 99%;
-	height: 0px;
-	border: 1px solid #FFFFFF;
-	
-	margin: auto;
-}
-.LogoFooter{
-	display: inline-block;
-	margin-left: 63px;
-	margin-top: 20px;
-	width: 110px;
-	height: 32px;
-}
-.footer-text{
-	font-family: Montserrat;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 10px;
-	line-height: 15px;
-	text-align: center;
-	display: flex;
-	justify-content: space-around;
-	
-}
-#text{
-	display: flex;
-	flex-direction: column;
-}
-#text1{
-	display: inline-block;
-	
-	height: 65px;
-}
-#text2{
-	display: inline-block;
-	
-	height: 65px;	
-}
 
 #hideGall{
 	display: none;
@@ -435,6 +321,9 @@ footer{
 	}
 	.logo1{
 		margin: 0px;
+	}
+	#about{
+		padding-left: 5px;
 	}
 }
 
