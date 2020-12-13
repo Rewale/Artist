@@ -1,4 +1,4 @@
-
+/*Выпадающее меню*/
 .list-hide{
 	display: flex;
 	flex-direction: column;
@@ -10,19 +10,23 @@
 	width: 172px;
 	padding: 10px;
 }
+/*Стиль ссылок в выпадающем меню*/
 .item-hide-a{
 	color:white;
 	text-decoration: none;
 }
+/*Элемент списка в выпадающем меню*/
 .item-hide
 {
 	widows: 172px;
 	text-align: center;
 	padding-bottom: 50px;
 }
+/*Последний элемент списка в выпадающем меню*/
 #last{
 	padding-bottom: 15px;
 }
+/*Кнопка вызова меню*/
 #menu-butt{	
 	position: relative;
 	margin-top: 15px;
@@ -41,6 +45,7 @@
 	color: #F2994A;
 	text-decoration: none;
 }
+/*Логотип на главном заголовке*/
 .SectionLogo{	
 	display: block;	
 	width: 250px;
@@ -48,6 +53,7 @@
 	margin: 0 auto;	
 	padding-top: 18%;
 }
+/*Главный заголовок*/
 .main{
 	background-image: url('MainImgg.png');
 	background-size: cover;
@@ -55,7 +61,8 @@
     display: inline-block;
     padding-top: 13%;
     
-}	
+}
+/*Кнопки входа и регистрации в главной(для моб версии)*/	
 #hideVhod{
 	
 	width:100%;
@@ -63,9 +70,11 @@
 	justify-content: flex-end;
 	margin-top: -13%;
 }
+/* стиль ссылок кнопок в главной*/
 #main-buttons a{
 	text-decoration: none;
 }	
+/*Стиль кнопок в главной*/
 #main-buttons{
 	display: flex;
 	flex-direction: column-reverse;
@@ -76,6 +85,7 @@
 	margin-bottom: 5px;
 	
 }
+/*Кнопка "Записаться"*/
 #buttonZapic{
 	width:  235px;
 	color: #000;
@@ -93,6 +103,7 @@
 	margin-bottom: 155px;
 	text-decoration: none;
 }
+/*Афиша*/
 #afisha{
 	margin: auto;
 	
@@ -103,6 +114,7 @@
 	margin: auto;
 	
 }
+/*Заголовок*/
 .Name{
     text-align: center;
 	display: block;
@@ -118,6 +130,7 @@
 	padding-bottom: 20px;
 	padding-top: 20px;
 }
+/*Стиль афиши одной выставки*/
 .AfishaObshee{
 
 	text-align: center;
@@ -126,11 +139,13 @@
 	width: 100%;
 	margin: 0 auto;
 }
+/*Изображение в афише выставки*/
 .AfishaObshee img{
 
 	display: flex;
 	width: 100%;
 }
+/*Название выставки*/
 .seminame{	
 	margin-top: -50px;
 	align-items: center;
@@ -153,6 +168,7 @@
 .Fototable tbody{
 	margin: auto;
 }
+/* Изображения в фотогалерее*/
 .PhotoGal{
 	padding: 46px 11px 46px 11px;
 	width: 90%;
@@ -165,21 +181,25 @@
 	padding-left: 15%;
 	
 }
+/*Заголовок*/
 .Infa{	
 		
 	
 	margin-top: 91px;
 }
+/*2 абзаца в строку*/
 .twoInRow{
 	display: flex;
 	flex-direction: row;		
 	
 	
 }
+/*Абзац*/
 .tIRelm{
 	width:40%;
 	
 }
+/*Заголовок абзацов*/
 h3{
 	font-family: Montserrat;
 	font-style: normal;
@@ -192,15 +212,16 @@ h3{
 
 	color: #FFFFFF;
 }
-
+/*
 #Adres{
 	display: inline-block;
 	width: 518px;
 	height: 222px;
 	padding-left: 94px;
 	padding-bottom: 64px;
-}
+}*/
 
+/*Заявка на вступление в кружок*/
 .Zayavka{	
 	width:295px;
 	height:46px;
@@ -217,16 +238,18 @@ h3{
 	text-decoration: none;
 	color: #FFFFFF;
 }
-
+/*Галерея в мобильной версии*/
 #hideGall{
 	display: none;
 	flex-direction: column;
 }
+/*Изображение мобильной версии галереи*/
 #hideGall img{
 	width:80%;
 	margin: auto;
 	padding-bottom: 10px;
 }
+/*"Спрятанные" ссылки на регистрацию и вход*/
 #hideMainRegVhod{
 	
 	flex-direction: row;
@@ -248,6 +271,8 @@ h3{
 
 	color: #000000;
 }
+
+/*Медиа-запросы*/
 @media(max-width:1050px)
 {
 	#hideVhod{
@@ -276,6 +301,12 @@ h3{
 	}
 }
 @media(max-width:680px){
+	.main-navigation{
+		display: none;
+	}
+	#hide-div{
+		display: block;
+	}
 	#hideVhod{
 		display: none;
 	}
@@ -296,7 +327,7 @@ h3{
 	}
 	.Photo img{
 		width:100%;
-		height:100%;
+		height:100%;		
 		overflow: hidden;
 	}
 	.seminame{

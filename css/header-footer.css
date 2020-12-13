@@ -1,3 +1,6 @@
+/*Общий стиль для страниц*/
+
+
 body{
 	background-color: #000000;
 	margin: 0px;
@@ -5,6 +8,7 @@ body{
 	font-family: 'Montserrat', sans-serif;
 	color: #fff; 
 }
+/*Заголовок*/
 .header{
 	padding-top: 10px;
 	padding-bottom: 12px;
@@ -14,6 +18,13 @@ body{
 	justify-content: space-between;
 	width:100%;
 }
+/*Изначально выплывающее меню для 
+мобильных версий выключено*/
+#hide-div{
+	display: none;
+}
+
+/*Навигация для мобильной версии*/
 #hideNav{
 	width: 70%;	
 	flex-direction: row;
@@ -36,23 +47,27 @@ body{
 	color: #FFFFFF;
 	text-decoration: none;
 }
+/*Логотип в хедере*/
 .logo1{	
 	width: 118px;
 	height: 40px;
 	margin-left: 82px;
 	
 }
+/*Навигация*/
 .navigation{
 	margin: 0;
 	display: flex;
 	list-style: none;	
 	
 }
+/*Основная навигация*/
 .main-navigation{
 	display: flex;
 	padding-bottom: 22px;
 	padding-top: 15px;
 }
+/*Ссылки для элементов навигации*/
 .item-link{
 	display: flex;		
 	padding-right:25px;	
@@ -62,6 +77,7 @@ body{
 	line-height: 16px;
 
 }
+/*Кнопки Регистрация и вход*/
 #registerplusvhod{
 
 	width: 286px;
@@ -76,6 +92,7 @@ body{
 #registerplusvhod a{
 	text-decoration: none;
 }
+/*Кнопка входа*/
 .vhod{
 	list-style: none;	
 	color: black;	
@@ -85,6 +102,7 @@ body{
 	align-items: center;
 	padding: 11px 46px 11px 46px;
 }
+/*Кнопка регистрации*/
 .register{
 	text-align: center;
 	align-items: center;
@@ -98,10 +116,12 @@ body{
 	color: #FFF
 	
 }
+/*Подвал*/
 footer{
 	margin-top: 100px;
 	padding-bottom: 100px;
 }
+/*Линия подвала*/
 .Line-Footer{
 	width: 99%;
 	height: 0px;
@@ -109,6 +129,7 @@ footer{
 	
 	margin: auto;
 }
+/*Логотив в подвале*/
 .LogoFooter{
 	display: inline-block;
 	margin-left: 63px;
@@ -116,6 +137,7 @@ footer{
 	width: 110px;
 	height: 32px;
 }
+/*Содержимое футера*/
 .footer-text{
 	font-family: Montserrat;
 	font-style: normal;
@@ -127,22 +149,30 @@ footer{
 	justify-content: space-around;
 	
 }
+/*Текст в футере*/
 #text{
 	display: flex;
 	flex-direction: column;
 }
+/*Адрес*/
 #text1{
 	display: inline-block;
 	
 	height: 65px;
 }
+/*Контакты*/
 #text2{
 	display: inline-block;
 	
 	height: 65px;	
 }
+/*Медиа-запросы*/
+
 @media(max-width:720px)
 {
+	#registerplusvhod-nav{
+		display: none;
+	}
 	#registerplusvhod{
 		display: none;
 	}

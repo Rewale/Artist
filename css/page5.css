@@ -13,13 +13,16 @@ body{
 	padding-left: 96px;
 
 }
+/*Измененный размера поля регистрации и входа в хедере*/
 #registerplusvhod{
 	width: 130px;
 }
+/*Измененая ориентация спрятанной навигации*/
 #hideNav{
 	width:100%;
 	justify-content: center;
 }
+/* "Коробка" с полями ввода*/
 .obodok{	
 	width: 900px;
 	height: 439px;
@@ -28,6 +31,7 @@ body{
 	box-sizing: border-box;
 	padding: 50px;
 }
+/*Поле ввода обычного текста*/
 .simple-text{
 	width: 500px;
 	height: 40px;
@@ -43,6 +47,7 @@ body{
 	color: #000000;
 	
 }
+/*Заголовок*/
 h4{	
 	font-family: Montserrat;
 	font-style: normal;
@@ -55,6 +60,7 @@ h4{
 
 	color: #FFFFFF
 }
+/*Вход в аккаунт*/
 .akk{	
 	width: 168px;
 	height: 40px;
@@ -81,7 +87,7 @@ h4{
 	color: #000000;
 
 }
-
+/*Медиа-запросы*/
 @media(max-width:1100px)
 {
 	.obodok{

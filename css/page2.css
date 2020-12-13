@@ -1,4 +1,4 @@
-
+/*Несколько картинок в ряд*/
 .Page{
 	min-width: 200px;
 	width: 100%;
@@ -14,6 +14,10 @@
 	width: 60%;
 	height: 262px;
 }
+#hideNav{
+	padding-top: 20px;
+}
+/*Факт из жизни*/
 .Aivazovski{
 	display: flex;
 	width:80%;
@@ -30,6 +34,7 @@
 	letter-spacing: -0.015em;
 	margin: 0 auto;
 }
+/*Стиль картинок*/
 .Pese{
 	width: 44%;
 }
@@ -40,6 +45,7 @@
 	display: flex;
 	flex-wrap: wrap;
 }
+/*Спрятанные изображении (мобильная версия)*/
 #hideShips{
 	display: none;
 }
@@ -56,13 +62,15 @@
 	display: none;
 }
 #hideFaces img{
-	width:33%;
+	width:33.33333333%;
 	
 }
 #hS12{
 	display: flex;
 	flex-direction: row;
 }
+
+/*Медиа запросы*/
 @media(max-width:768px)
 {
 	.Page24{
